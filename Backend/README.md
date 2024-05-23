@@ -1,0 +1,2 @@
+The back-end server and RESTful API of fitness tracker web app built in xampp with phpMyAdmin.
+Currently the back-end and front-end of fitness tracker web app live in seperate repos, to reduce project clutter.
