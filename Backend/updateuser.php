@@ -13,9 +13,10 @@ $Height = $data['Height'];
 $Age = $data['Age'];
 $Email = $data['Email'];
 
-$user = mysqli_query($db, "INSERT INTO `user`(`UserID`, `Full_name`, `Gender`, `Weight`, `Height`, `Age`, `Email`) 
-                        VALUES (`$UserID`,`$Full_name`,`$Gender`,'$Weight`,'$Height','$Age`,`$Email`)");
+$user = mysqli_query($db, "UPDATE `user` SET `UserID`='$UserID',`Full_name`='$Full_name',`Gender`='$Gender',
+                                `Weight`='$Weight',`Height`='$Height',`Age`='$Age',`Email`='$Email`)");
  
+$user = mysqli_query($db, "UPDATE 'login' SET  'email'='$email' WHERE 'UserID' = $UserID");
 if($user){
     https_response_code(201);
     $message['status'] = "Success";
