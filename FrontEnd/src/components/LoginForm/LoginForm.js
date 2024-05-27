@@ -6,8 +6,7 @@ const LoginForm = () => (
     <h2>Login to Your Account</h2>
     <input type="email" placeholder="Email" />
     <input type="password" placeholder="Password" />
-    <input type="password" placeholder="Confirm Password" />
-    <button>Sign Up</button>
+    <button>Login</button>
   </div>
 );
 
