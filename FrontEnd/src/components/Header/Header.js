@@ -7,7 +7,7 @@ function Header() {
       <div className="container">
         <div>
           <h1>FitGuage</h1>
-          <i>Fitness is assured</i>
+          <i>...fitness is assured</i>
         </div>
         <nav>
           <ul>
