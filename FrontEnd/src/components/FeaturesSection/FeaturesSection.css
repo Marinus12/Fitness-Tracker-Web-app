@@ -1,0 +1,23 @@
+.features-section {
+    padding: 4rem 0;
+    text-align: center;
+  }
+
+  .features-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .features {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .feature {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  /*  */
