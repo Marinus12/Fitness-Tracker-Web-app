@@ -12,7 +12,9 @@ function Header() {
         </div>
         <nav>
           <ul>
-            <li><a href="#hero">Home</a></li>
+            {/* <li><a href="#hero">Home</a></li> */}
+
+            <li><Link to="/Home">Home</Link></li>
             <li><a href="#features">Features</a></li>
             <li><Link to="/login">Login</Link></li>
 
