@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Heading } from '@chakra-ui/react';
 import './Header.css';
 
 function Header() {
@@ -7,12 +8,12 @@ function Header() {
     <header className="header">
       <div className="container">
         <div>
-          <h1>FitGuage</h1>
+          <Heading>FitGuage</Heading>
           <i>...fitness is assured</i>
         </div>
         <nav>
           <ul>
-            {/* <li><a href="#hero">Home</a></li> */}
+
 
             <li><Link to="/Home">Home</Link></li>
             <li><a href="#features">Features</a></li>
