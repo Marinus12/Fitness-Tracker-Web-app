@@ -5,12 +5,16 @@ $input = file_get_contents('php://input');
 $data = json_decode($input,true);
 $message = array();
 
-$StepID= $data['StepID'];
+$strength_trainingID= $data['cyclingID'];
+$activityID = $data['activityID'];
 $UserID= $data['UserID'];
-$Date = $data['Date'];
-$number_of_steps = $data['number_of_steps'];
+$duration = $data['duration'];
+$exercise = $data['exercise'];
 
-$user = mysqli_query($db, "INSERT INTO `steps`(`StepID`, `UserID`, `Date`, `number_of_steps`) VALUES ('$StepID','$UserID','$Date','$number_of_steps')");
+
+
+$user = mysqli_query($db, "INSERT INTO   `strength_training`(`strength_trainingID`, `activityID`, `UserID`, `duration`,'exercise')
+VALUES ('$strength_training','$activityID','$UserID','$duration','$exercise')");
  
 if($user){
     https_response_code(201);
