@@ -21,6 +21,10 @@
     text-decoration: none;
   }
 
+  .App-logo {
+    height: 100px;
+    width: 100px;
+  }
 
   /* .header {
     background: #333;

@@ -10,11 +10,12 @@ function Header() {
       <div className="container">
         <div>
         <img src={FitnessLogo} className="App-logo" alt="logo" />
+        </div>
           <div>
             <Heading>FitGuage</Heading>
             <i>...fitness is assured</i>
           </div>
-        </div>
+
         <nav>
           <ul>
 
