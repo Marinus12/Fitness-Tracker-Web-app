@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heading } from '@chakra-ui/react';
 import './Header.css';
-import "logo" from "../../public/"
+import FitnessLogo from '../../../public';
 
 function Header() {
   return (
     <header className="header">
       <div className="container">
         <div>
-
+        <img src={FitnessLogo} className="App-logo" alt="logo" />
           <div>
             <Heading>FitGuage</Heading>
             <i>...fitness is assured</i>
