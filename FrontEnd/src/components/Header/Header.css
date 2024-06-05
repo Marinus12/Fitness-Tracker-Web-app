@@ -22,8 +22,10 @@
   }
 
   .App-logo {
-    height: 100px;
-    width: 100px;
+    height: 40vmin;
+    /* width: 150px; */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a shadow */
   }
 
   /* .header {
