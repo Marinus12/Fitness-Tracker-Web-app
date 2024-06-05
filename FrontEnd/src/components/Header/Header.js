@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heading } from '@chakra-ui/react';
 import './Header.css';
-import FitnessLogo from '../../../public';
+import FitnessLogo from '../../asset/FitnessLogo.png';
 
 function Header() {
   return (
