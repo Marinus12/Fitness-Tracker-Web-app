@@ -19,10 +19,11 @@
   header nav ul li a {
     color: white;
     text-decoration: none;
+    font-size: 1.5rem;
   }
 
   .App-logo {
-    height: 20vmin;
+    height: 15vmin;
     pointer-events: none;
     /* width: 150px; */
     border-radius: 50%;

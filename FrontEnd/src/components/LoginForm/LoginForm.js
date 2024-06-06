@@ -6,7 +6,7 @@ import './LoginForm.css';
 const LoginForm = () => (
   // <Box p={6 , 0} rounded="md" w="100%">
     <div className="form-wrapper">
-      <h2>Login to Your Account</h2>
+      <h1>Login to Your Account</h1>
       <input type="email" placeholder="Email" />
       <input type="password" placeholder="Password" />
       <Link to="/profile">
