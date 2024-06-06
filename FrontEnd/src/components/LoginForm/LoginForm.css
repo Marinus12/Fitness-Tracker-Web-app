@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 3%, 29%);
     color: white;
     height: fit-content
   }
@@ -11,7 +11,7 @@
   .form-wrapper input {
     margin: 10px 0;
     padding: 10px;
-    width: 50%;
+    width: 50px;
   }
 
   .form-wrapper button {

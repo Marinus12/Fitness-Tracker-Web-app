@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './SignupForm.css';
+import { Heading } from '@chakra-ui/react';
+import FitnessLogo from '../../asset/FitnessLogo.png';
+
 
 const SignupForm = () => (
   <div className="form-wrapper">
-    <h2>Create Your Account</h2>
+    <div>
+      <img src={FitnessLogo} className="App-logo" alt="logo" />
+    </div>
+    <Heading>Create Your Account</Heading>
     <input type="First Name" placeholder="First Name" />
     <input type="Last Name" placeholder="Last Name" />
     <input type="email" placeholder="Email" />
