@@ -1,23 +1,33 @@
-.form-wrapper {
+.form-wrapper-L {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-image: url(../../asset/BG-Img1.jpg);
+    background-repeat: no-repeat; /* other values: repeat, repeat-x, repeat-y */
+    background-size: cover; /* other values: contain, auto, or specific dimensions like 100px 100px */
+    background-position: center; /* other values: top, bottom, left, right, or specific positions like 50% 50% */
+    background-attachment: fixed; /* other value: scroll */
     background-color: hsl(0, 3%, 29%);
-    color: white;
+    color: rgb(209, 195, 195);
     height: fit-content
   }
 
-  .form-wrapper input {
+  .form-wrapper-L input {
     margin: 10px 0;
     padding: 10px;
-    width: 50px;
+    width: 30vmax;
   }
 
-  .form-wrapper button {
+  .form-wrapper-L button {
     padding: 10px;
     background-color: #644a88;
     color: white;
    border-radius: 20%;
     cursor: pointer;
+  }
+
+  .Text:hover {
+    text-transform:capitalize;
+    text-decoration: underline;
   }

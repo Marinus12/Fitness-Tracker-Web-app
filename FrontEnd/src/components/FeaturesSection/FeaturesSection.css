@@ -1,6 +1,11 @@
 .features-section {
-    padding: 4rem 0;
+    padding: 2rem 0;
     text-align: center;
+    background-image: url('../../asset/BG-Img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
   }
 
   .features-section .container {
@@ -20,4 +25,20 @@
     background-color: #f9f9f9;
     border: 1px solid #ddd;
   }
-  /*  */
+
+  .feature h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .feature p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+  }
+
+  .PT, .PWK, .Nut {
+    border-radius: 15%;
+  }
+  /* .PWK {
+    height: 20vmin;
+  } */

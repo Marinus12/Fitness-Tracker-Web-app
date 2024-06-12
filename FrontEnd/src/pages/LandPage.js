@@ -6,7 +6,7 @@ import Footer from '../components/Footer/Footer';
 
 function LandPage() {
   return (
-    <div className="App">
+    <div className="Landpage">
       <Header />
       <HeroSection />
       <FeaturesSection />

@@ -13,12 +13,12 @@
 
   .hero-section .container h1{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-size: 3rem;
   }
 
   .hero-section .container p{
     font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 1.5rem;
   }
 
   .hero-section button {
